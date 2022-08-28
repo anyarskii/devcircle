@@ -224,7 +224,7 @@ def add_to_cart(request):
                 newitem.amount = main.price * quantity
                 newitem.paid = False
                 newitem.save()
-                messages.success(request, format_html ('one item added... <a href="http://localhost:8000/cart">view cart</a>')) # this so you have the option to view cart after adding to cart
+                messages.success(request, format_html ('one item added... <a href="http://44.203.99.62/cart">view cart</a>')) # this so you have the option to view cart after adding to cart
                 return redirect('home')
 
         else: #if both conditions are not met populate from 
@@ -236,7 +236,7 @@ def add_to_cart(request):
             newcart.amount = main.price * quantity
             newcart.paid = False
             newcart.save()
-            messages.success(request, format_html ('one item added... <a href="http://localhost:8000/cart">view cart</a>')) # this so you have the option to view cart after adding to cart
+            messages.success(request, format_html ('one item added... <a href="http://44.203.99.62/cart">view cart</a>')) # this so you have the option to view cart after adding to cart, the ip used to be local host and was changed after deploying to aws
             return redirect('home')
 
 @login_required(login_url='signin')
@@ -317,7 +317,7 @@ def pay(request):
     if request.method == 'POST':
         api_key = 'sk_test_64b65f4c2ee8d94e7d10d55f038d7b7876f582ab' #secret key from paystack
         curl = 'https://api.paystack.co/transaction/initialize' #paystack call url
-        cburl = 'http://localhost:8000/callback' #payment confirmation page
+        cburl = 'http://44.203.99.62/callback' #payment confirmation page
         ref = str(uuid.uuid4()) #reference number required by paystack as an additional order number
         profile = Customer.objects.get(user__username = request.user.username)
         order_no = profile.id #main order number
