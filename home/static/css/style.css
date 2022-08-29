@@ -38,10 +38,10 @@ body{
 .avat img{
     border-radius: 100%;
     width: 40px;
-    outline: 2px solid #7d3054;
+    outline: 2px solid #659DBD;
 }
 .cont i{
-    color: #7d3054;
+    color: #659DBD;
 }
 /* topbar done */
 
@@ -66,15 +66,15 @@ body{
     color: black;
 }
 .carousel-indicators .active{
-    background: #7d3054 !important;
+    background: #659DBD !important;
 }
 /* Carousel done */
 
 /* content */
 .card{
     border-radius: 2rem 0 !important;
-    outline: 2px solid #7d3054;
-    box-shadow: 0 0 20px 0 #7d3054;
+    outline: 2px solid #659DBD;
+    box-shadow: 0 0 20px 0 #659DBD;
     transition: 1s;
 }
 .card-title{
@@ -92,11 +92,11 @@ body{
     border-bottom: 3px solid purple;
 }
 .card-body .btn{
-    background: #7d3054;
+    background: #659DBD;
     border: none;
 }
 .card-body .btn:hover{
-    background: #7d3054;
+    background: #659DBD;
     color: black;
 }
 .title::after{
@@ -104,22 +104,22 @@ body{
     display: block;
     width: 180px;
     height: 3px;
-    background: #7d3054;
+    background: #659DBD;
     margin-left: auto;
     margin-right: auto;
 }
 .pagination a{
-    color: #7d3054;
+    color: #659DBD;
 }
 .pagination li a:hover{
-    background: #7d3054 !important;
+    background: #659DBD !important;
     color: white !important;
 }
 /* content done */
 
 /* footer */
 .footer1{
-    background: gray;
+    background: #5D5C61;
     padding: 3% 0;
 }
 .footer1 img{
@@ -142,7 +142,7 @@ body{
     text-align: center;
 }
 .footbox2 ul li i{
-    color: #7d3054;
+    color: #659DBD;
     transition: 1s;
 }
 /* footer done */
@@ -163,7 +163,7 @@ body{
 }
 .phonedet h5{
     font-weight: 700;
-    color: #7d3054;
+    color: #659DBD;
 }
 .detbtn:hover{
     color: black !important;
@@ -172,7 +172,7 @@ body{
 
 /* contact */
 .contbtn{
-    background: #7d3054 !important;
+    background: #659DBD !important;
     color: white !important;
     width: 100px;
 }
@@ -193,10 +193,10 @@ body{
 /* cart */
 .cart table{
     width: 90%;
-    border: 1px solid #7d3054;
+    border: 1px solid #659DBD;
 }
 .cart thead{
-    background: #7d3054;
+    background: #659DBD;
     text-align: center;
 }
 .cart th{
@@ -208,7 +208,7 @@ body{
     /* border: 1px solid #7d3054; */
 }
 .cart tbody td{
-    border: 1px solid #7d3054;
+    border: 1px solid #659DBD;
     color: black var(--card);
     font-weight: 800;
 
@@ -219,14 +219,14 @@ body{
     font-weight: 600;
 }
 .cartbtn{
-    background: #7d3054 !important;
+    background: #659DBD !important;
     color: white !important;
 }
 /* cart done */
 
 /* checkout */
 .ship{
-    border: 1px solid #7d3054;
+    border: 1px solid #659DBD;
     /* can also use outline instead of border */
     padding: 10px;
 }
@@ -244,7 +244,7 @@ body{
 }
 .profavat img{
     border-radius: 100%;
-    outline: 2px solid #7d3054;
+    outline: 2px solid #659DBD;
     height: 300px;
 }
 
@@ -261,14 +261,14 @@ body{
     color: black var(--card);
 }
 .uselink i{
-    color: #7d3054;
+    color: #659DBD;
 }
 /* profile done */
 
 /* callback */
 .callback{
     /* text-transform: capitalize; */
-    color: #7d3054;
+    color: #659DBD;
     margin-top: 5%;
     font-size: 20px;
 }
@@ -283,26 +283,26 @@ body{
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    outline: 1px solid #7d3054;
+    outline: 1px solid #659DBD;
     padding: 10px;
     border-radius: 1rem;
 }
 .signup form input{
-    border-color: #7d3054;
+    border-color: #659DBD;
 }
 .signup form input:focus{
     box-shadow: none;
-    border-color: #7d3054;
+    border-color: #659DBD;
 }
 
 /* signup done */
 
 /* login */
 .title i{
-    color: #7d3054;
+    color: #242582;
 }
 .login i{
-    color: #7d3054;
+    color: #242582;
 }
 .pass{
     position: relative;
@@ -326,7 +326,7 @@ body{
 
 .cojhu{
     width: 50%;
-    background: #7d3054;
+    background: #659DBD;
 }
 .oiuin{
     display: flex;
@@ -346,7 +346,7 @@ body{
 @media (min-width: 400px) and (max-width:1920px){
     .profavat img{
         border-radius: 100%;
-        outline: 2px solid #7d3054;
+        outline: 2px solid #659DBD;
         height: 300px;
 }
 
@@ -356,14 +356,14 @@ body{
     }
     .profavat img{
         border-radius: 100%;
-        outline: 2px solid #7d3054;
+        outline: 2px solid #659DBD;
         height: 100px;
     }
     .signup form{
         width: 80%;
         margin-right: 10%;
         margin-left: 10%;
-        outline: 2px solid #7d3054;
+        outline: 2px solid #659DBD;
         padding: 20px;
         border-radius: 1rem;
     }
